@@ -26,6 +26,7 @@ if [ -d "$homeDir" ]; then
 else
         mkdir "$homeDir"
 fi
+
 if [ sudo fuser 8080/tcp &>/dev/null ]; then
         sudo fuser -k 8080/tcp
 fi
