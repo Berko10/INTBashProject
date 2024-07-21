@@ -2,10 +2,11 @@
 echo "Hello $USER"
 
 export COURSE_ID="DevOpsTheHardWay"
+
 token_file="$HOME/.token"
 
 if [ -e "$token_file" ]; then
-        fileperm=$(stat -c "%a" "$token_file")
+	fileperm=$(stat -c "%a" "$token_file")
         if [ "$fileperm" -ne 600 ]; then
                 echo "Warning: .token file has too open permissions"
         fi
