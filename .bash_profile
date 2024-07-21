@@ -11,7 +11,7 @@ if [ -e "$token_file" ]; then
                 echo "Warning: .token file has too open permissions"
         fi
 fi
-umask 007
+umask 07
 export PATH="$PATH:/home/$USER/usercommands"
 currentDate=$(date -u +"%Y-%m-%dT%H:%M:%S%:z")
 echo "The current date is: $currentDate"
