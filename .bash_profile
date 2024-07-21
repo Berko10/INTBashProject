@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Hello $USER"
 
-export COURSE_ID="INTBashProject"
+export COURSE_ID="__REPO_NAME__"
 
 token_file="$HOME/.token"
 
