@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Hello $USER"
 
-export COURSE_ID="https://github.com/Berko10/INTBashProject"
+export COURSE_ID="INTBashProject"
 
 token_file="$HOME/.token"
 
